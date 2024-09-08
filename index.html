@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <script src="script10.js" defer></script>
+  
+  
+  </head>
+  </header><div class="header" >
+              <div class="header1">Calculator
+
+            </div>
+  <body>
+    <div id="key" class="keyboard">
+            <div id="main" class="container">
+                <div id="content8" class="content8"> 
+                    <input id="display" type="text" class="disp"></inputid> </input>
+                    
+                </div>        
+            </div>
+            <div id="main2" class="container2"> 
+                <div id="main4" class="container4">
+                    <div id="content1" class="content1">
+                        <button class="button" id="btn1" value="F"  onclick="number()">F</button>
+                        <button class="button" id="btn1" value="**" onclick="disp.value+='**'">**</button>
+                        <button class="button" id="btn1" value="."  onclick="disp.value+='.'">.</button>
+                    </div>
+                    <div id="content2" class="content2">
+                        <button class="button" id="btn1" value="7"  onclick="disp.value+='7'">7</button>
+                        <button class="button" id="btn1" value="8"  onclick="disp.value+='8'">8</button>
+                        <button class="button" id="btn1" value="9"  onclick="disp.value+='9'">9</button>
+                    </div>
+                    <div id="content3" class="content3">
+                        <button class="button" id="btn1" value="4"  onclick="disp.value+='4'">4</button>
+                        <button class="button" id="btn1" value="5"  onclick="disp.value+='5'">5</button>
+                        <button class="button" id="btn1" value="6"  onclick="disp.value+='6'">6</button>
+                    </div>
+                    <div id="content4" class="content4">
+                        <button class="button" id="btn1" value="1"  onclick="disp.value+='1'">1</button>
+                        <button class="button" id="btn1" value="2"  onclick="disp.value+='2'">2</button>
+                        <button class="button" id="btn1" value="3"  onclick="disp.value+='3'">3</button>
+                    </div>
+                    <div id="content5" class="content5">
+                        <button class="button" id="btn1" value="0"  onclick="disp.value+='0'">0</button>
+                        <button class="button" id="btn1" value="=" onclick="display.value=eval(display.value)">=</button>
+                        <button class="button" id="btn1" value="CLS"  onclick="disp.value=''">CLS</button>
+                        
+                    </div>    
+                </div>
+                <div id="main3" class="container3">
+                    <button class="button button:hover" id="btn1" value="+"  onclick="disp.value+='+'">+</button>
+                    <button class="button button:hover" id="btn1" value="-"  onclick="disp.value+='-'">-</button>
+                    <button class="button button:hover" id="btn1" value="*"  onclick="disp.value+='*'">*</button> 
+                    <button class="button button:hover" id="btn1" value="/"  onclick="disp.value+='/'">/</button>
+                    <!-- removing the last digit -->
+                    <button class="button" id="btn1" value="DE"  onclick="disp.value =display.value.toString().slice(0,-1)">DE</button>
+                </div>
+            </div>
+                     
+    </div>                 
+     <div id="main5" class="container5">
+                    
+        <div id="text" class="texttr">By Christos Trypatzis</div>
+                
+                      
+        <button class="buttoninf" id="btn1" onmouseover="mouseOver()" onclick="info_but()">!</button> 
+            
+     </div>
+        
+       
+       
+       
+  </body>
+
+  
+</html>
